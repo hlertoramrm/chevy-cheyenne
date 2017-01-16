@@ -1,0 +1,115 @@
+/*General Styles*/
+
+section .container {
+	height: 100%;
+}
+
+.bg-top {
+	height: 1650px;
+	background: url(../img/bg1.jpg) #000 no-repeat;
+	background-size: 100% auto;
+}
+
+.bg-top .row {
+	margin: 0;
+	padding: 0;
+}
+
+.logo-chevrolet {
+	height: 280px;
+}
+
+.bg-top h1 {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: -2px -1px 5px rgba(0, 0, 0, 1);
+  display: block;
+  text-indent: -9999px;
+}
+
+.bg-top .download-social {
+	
+}
+
+.bg-top h2 {
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+    padding-top: 120px;
+}
+
+.bg-top p {
+	font-size: 12px;
+	color: white;
+	max-width: 630px;
+}
+
+.bg-top .descarga-social {
+	max-width: 600px;
+}
+
+.bg-top .descargar {
+	float: left;
+}
+
+.bg-top .social {
+	float: right;
+}
+
+.bg-top .social ul li {
+	float: left;
+}
+
+.bg-top .image-container {
+	background: url(../img/nubes1.jpg) no-repeat;
+	width: 316px;
+	height: 304px;
+	margin-top: 31%;
+}
+
+.bg-top .insignia-container {
+	background: url(../img/auto-insignia.png) no-repeat;
+	width: 674px;
+	height: 386px;
+	position: absolute;
+    right: 1px;
+    top: 34px;
+    display: block;
+}
+
+.third-block {
+ 	background-image: url(../img/bg2.jpg), url(../img/bg3.jpg);
+ 	background-color: #000;
+ 	background-repeat: no-repeat, no-repeat;
+  	background-position: top center, bottom right;
+  	background-size: 100% auto;
+  	height: 5000px;
+}
+
+.pull-right {
+	margin-right: 30px;
+}
+
+.img-sized {
+	width: 100%;
+}
+
+/*Slider*/
+
+.unslider {overflow:auto;margin:0;padding:0}.unslider-wrap{position:relative}.unslider-wrap.unslider-carousel li{float:left}.unslider-vertical>ul{height:100%}.unslider-vertical li{float:none;width:100%}.unslider-fade{position:relative}.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8}.unslider-fade .unslider-wrap li.unslider-active{z-index:10}.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none}.unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer}.unslider-arrow.next{left:auto;right:20px}
+
+
+/*Media Queries*/
+
+@media (max-width: 992px) {
+  
+}
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 480px) {
+	
+}
